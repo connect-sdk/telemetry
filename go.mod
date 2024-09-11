@@ -1,8 +1,9 @@
 module github.com/connect-sdk/telemetry
 
 go 1.21.1
+toolchain go1.22.5
 
 require (
-	go.opentelemetry.io/otel v1.29.0
-	go.opentelemetry.io/otel/trace v1.29.0
+	go.opentelemetry.io/otel v1.30.0
+	go.opentelemetry.io/otel/trace v1.30.0
 )
